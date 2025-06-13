@@ -22,6 +22,12 @@
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
         </nav>
     </header>
 
@@ -69,7 +75,7 @@
                             <p class="chapter-meta">Posted on: March 15, 2024</p>
                             <p class="chapter-excerpt">The first chapter of your story begins here...</p>
                         </div>
-                        <a href="chapter.html" class="read-more magic-button">Read Chapter</a>
+                        <a href="chapter.html?story=The%20Enchanted%20Forest&chapter=1" class="read-more magic-button">Read Chapter</a>
                     </article>
 
                     <article class="chapter-card magic-card">
@@ -78,7 +84,7 @@
                             <p class="chapter-meta">Posted on: March 16, 2024</p>
                             <p class="chapter-excerpt">The adventure continues as our characters embark on their journey...</p>
                         </div>
-                        <a href="chapter2.html" class="read-more magic-button">Read Chapter</a>
+                        <a href="chapter.html?story=The%20Enchanted%20Forest&chapter=2" class="read-more magic-button">Read Chapter</a>
                     </article>
 
                     <article class="chapter-card magic-card">
@@ -87,7 +93,7 @@
                             <p class="chapter-meta">Posted on: March 17, 2024</p>
                             <p class="chapter-excerpt">Our heroes face their first major challenge...</p>
                         </div>
-                        <a href="chapter3.html" class="read-more magic-button">Read Chapter</a>
+                        <a href="chapter.html?story=The%20Enchanted%20Forest&chapter=3" class="read-more magic-button">Read Chapter</a>
                     </article>
                 </div>
             </div>
@@ -95,8 +101,6 @@
     </main>
 
     <footer>
-        <div class="footer-bg-pattern"></div>
-        <div class="footer-peeking-characters"></div>
         <div class="footer-content">
             <div class="social-links">
                 <a href="#" class="magic-link"><i class="fab fa-twitter"></i></a>
@@ -107,5 +111,6 @@
         </div>
         <div class="love-yourself-design"></div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html> 

@@ -22,61 +22,89 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
+        <section id="hero" class="section">
             <div class="hero-content">
-                <h1 class="magic-text">Welcome to The Magic Shop</h1>
-                <p class="magic-subtitle">Where stories bloom like flowers in spring</p>
-                <div class="floating-elements">
-                    <span class="floating-star">✨</span>
-                    <span class="floating-heart">💜</span>
-                    <span class="floating-star">✨</span>
-                </div>
+                <h1 class="magic-text">Tram of thoughts🦋Stops at every soul.</h1>
+                <p class="magic-subtitle">Where heartbreak becomes art🦋And words become cages of love.</p>
+                <br></br>
+                <a href="#featured-stories" class="magic-button">Explore Stories</a>
+            </div>
+            <div class="floating-elements">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="star"></div>
+                <div class="heart"></div>
+                <div class="heart"></div>
             </div>
         </section>
 
-        <section id="featured-stories">
-            <h2>Featured Stories</h2>
-            <div class="story-grid">
+        <section id="featured-stories" class="section">
+            <div class="stories-grid">
                 <article class="story-card magic-card">
                     <div class="story-cover">
-                        <img src="https://via.placeholder.com/300x400" alt="Story Cover">
-                        <div class="magic-overlay"></div>
+                        <img src="https://source.unsplash.com/400x600/?fantasy,forest" alt="The Enchanted Forest Cover">
                     </div>
                     <div class="story-info">
-                        <h3>Story Title</h3>
-                        <p class="story-excerpt">A brief description of your story goes here...</p>
-                        <div class="story-meta">
-                            <span><i class="fas fa-book"></i> 15 Chapters</span>
-                            <span><i class="fas fa-heart"></i> 1.2K Reads</span>
-                        </div>
+                        <h3>The Enchanted Forest</h3>
+                        <p class="story-meta">Fantasy | 3 Chapters</p>
+                        <p class="story-excerpt">A magical journey through an ancient forest where secrets whisper from ancient trees and magical creatures roam...</p>
                         <a href="story.html" class="read-more magic-button">Read Now</a>
                     </div>
                 </article>
-            </div>
-        </section>
 
-        <section id="latest-updates">
-            <h2>Latest Updates</h2>
-            <div class="updates-list">
-                <article class="update-card magic-card">
-                    <h3>Chapter 1: The Beginning</h3>
-                    <p class="update-meta">Posted on: March 15, 2024</p>
-                    <p class="update-excerpt">The first chapter of your story begins here...</p>
-                    <a href="#" class="read-more magic-button">Continue Reading</a>
+                <article class="story-card magic-card">
+                    <div class="story-cover">
+                        <img src="https://source.unsplash.com/400x600/?castle,magic" alt="The Crystal Castle Cover">
+                    </div>
+                    <div class="story-info">
+                        <h3>The Crystal Castle</h3>
+                        <p class="story-meta">Fantasy | Coming Soon</p>
+                        <p class="story-excerpt">In a world where crystals hold the power of dreams, a young mage discovers her ability to shape reality...</p>
+                        <a href="#" class="read-more magic-button">Coming Soon</a>
+                    </div>
+                </article>
+
+                <article class="story-card magic-card">
+                    <div class="story-cover">
+                        <img src="https://source.unsplash.com/400x600/?stars,night" alt="Starlight Chronicles Cover">
+                    </div>
+                    <div class="story-info">
+                        <h3>Starlight Chronicles</h3>
+                        <p class="story-meta">Sci-Fi | Coming Soon</p>
+                        <p class="story-excerpt">When the stars begin to fall, a group of stargazers must uncover the cosmic mystery before time runs out...</p>
+                        <a href="#" class="read-more magic-button">Coming Soon</a>
+                    </div>
+                </article>
+
+                <article class="story-card magic-card">
+                    <div class="story-cover">
+                        <img src="https://source.unsplash.com/400x600/?ocean,underwater" alt="The Mermaid's Song Cover">
+                    </div>
+                    <div class="story-info">
+                        <h3>The Mermaid's Song</h3>
+                        <p class="story-meta">Fantasy | Coming Soon</p>
+                        <p class="story-excerpt">A haunting melody from the depths of the ocean leads a young musician to discover a world beneath the waves...</p>
+                        <a href="#" class="read-more magic-button">Coming Soon</a>
+                    </div>
                 </article>
             </div>
         </section>
 
-        
         <section id="about">
             <h2>About The Author</h2>
             <div class="about-section magic-card">
                 <div class="about-image-container magic-card">
-                    <img src="assets/author_pic.jpg" alt="Shuchismita Mallick" class="about-image">
+                    <img src="covers\author_pic.jpg" alt="Shuchismita Mallick" class="about-image">
                     <div class="magic-overlay"></div>
                 </div>
                 <div class="about-content">
@@ -88,20 +116,17 @@
                 </div>
             </div>
         </section>
-    </main>
 
     <footer>
-        <div class="footer-bg-pattern"></div>
-        <div class="footer-peeking-characters"></div>
         <div class="footer-content">
             <div class="social-links">
-                <a href="#" class="magic-link"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="magic-link"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="magic-link"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/the.sunkissed.lotus/" target="_blank" class="magic-link"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:spreadwingsoflove@gmail.com" class="magic-link"><i class="fas fa-envelope"></i></a>
             </div>
             <p>&copy; 2024 Shuchismita Mallick. All rights reserved.</p>
         </div>
         <div class="love-yourself-design"></div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html> 
